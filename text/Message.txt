@@ -1,0 +1,44 @@
+Hi,
+As you know I have been working on the website for a little bit now for school and for the club. I have a few queeries which I would like your input on.
+
+1.
+	Should I keep the next comp message?
+	should I add anything else?
+
+2. Contact Page:
+
+	Who would you like to be put on the table?
+
+3. Leaderboard Page: 
+	
+	So far I have put it into a top 5 table with a scoring system that follows: 1st: 100pts, 2nd: 80pts, 	3rd: 80pts and so on. Is there anything I should include or change? 
+
+	I need a list of who came 1,2,3,4(,5 potentially) in comp 2 as there was never results put on fb.
+
+4. Sponsors:
+	
+	What sponsors are to be included into the dropdown list?
+	
+	Should there be a write up about sponsors, or maybe a ad on the side for a major sponsor?
+
+5. About Page:
+
+	The little write up, is that too much, any critisisms?
+	
+	The Commitee section: Should we keep it, if we do we need to get better photos, also should I only 		include pres and vice-pres?
+
+	Competition dates: I did the first sunday of each month... (which is wrong). How many comps are 		there per year and on what days.
+
+6. Anything else.
+
+	What else should I include on the website?
+
+
+Problems:
+	1. Making the website responsive.
+	2. Unsafe scripts (for the back to top button)
+
+
+
+Thanks.. 
+Trent

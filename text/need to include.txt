@@ -1,0 +1,64 @@
+ric:
+
+1) Remove my phone number
+
+2) In competition we need to add the other 2 comps also.
+
+3) In leaderboard we need to add SPONSOR beside the name of the athlete. Like you are NMD and BBKing …
+
+
+5) Create a tag just for Comp dates. 
+
+
+
+leaderboard
+
+next comp date
+
+comp dates
+
+news
+
+comitee
+
+prizes
+
+motto
+
+sponsors 
+
+
+
+
+Different pages:
+
+home
+
+	-all comp right ups
+		-link to leaderboard 
+		-results
+
+	-any news on fundraises or other events the club participated in
+
+
+about
+	-the commitee
+		-photos of everyone in it
+		-ranks
+		-jobs
+	
+	-motto
+
+	-sponsors
+		-little write up
+
+	-what we are about
+		-little write up
+
+	-where do we do the comps
+
+contact
+
+inspiration sites:
+
+http://balibodyboarding.com/

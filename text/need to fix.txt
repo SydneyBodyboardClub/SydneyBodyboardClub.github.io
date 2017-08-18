@@ -1,0 +1,44 @@
+						NEEEEEED TO FIX STILL
+
+
+slide show
+	
+	black circle should be clear
+
+Nav bar
+	
+	Highlights different shades
+	On phone can stuff up on some browsers
+
+Phone compatability
+
+	index page               - SOLUTION: MAKE THE MARGINS RESPONSIVE, MAKE THE MEDIA RESPONSIVE
+
+
+	button for samall navbar - SOLUTION: TEST
+
+
+
+Leaderboard                      - SOLUTION: GET THE RESULTS AND MAKE OTHER TOP 5 TABLES, TALK TO JOSH, 					colums
+
+
+
+unsafe scripts                   - SOLUTUION: ASK STACK OVERFLOW
+
+
+						
+
+							FIXED
+
+
+
+Spelling                         - SOLUTION: CHECK WITH GRAMMERLY
+
+The underline for insta and fb   - SOLUTION: MAKE THE TEXT BLACK
+
+The Photo Size                   - CROP TO FIXED RATIO
+
+Phone Compatability
+	
+	contact page             - SOLUTION: MAKE A TABLE
+
