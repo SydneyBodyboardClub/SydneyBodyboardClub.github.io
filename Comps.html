@@ -1,149 +1,157 @@
 <!DOCTYPE html>
 <html>
-<title>SBC</title>
-<link rel="icon" href="pics/icon2.png"
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="UTF-8">
-<link rel="stylesheet" href="css/style.css">
-<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+<head>
+	<title>SBC</title>
+	<link rel="icon" href="pics/icon2.png"
 
-<!-- footer -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="footer, address, phone, icons" />
-	<link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
+	<!-- footer -->
 
-<body id="Home">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="footer, address, phone, icons" />
+		<link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+		<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+	
+	
+	<body id="Competitions">
+	
+	{% include head.html %}
+    {% seo %}
+</head>
 
-<div id="top">
-    <div id="header">
+<body>
+	<div id="top">
 
-<!-- Navbar -->
-<div class="w3-top">
- <div class="w3-bar w3-theme-d3 w3-left-align">
- <span style="color:black;float:right;">
-  <a class= a href = "https://www.facebook.com/SydneyBodyboardClub/" target=_blank title="Facebook"><img src="pics/fb1.png" alt="facebook" style="width:38px;height:38px;"i class="w3-hover-grey"</a>
-  <a class= a href ="https://www.instagram.com/sydneybodyboardclub/?hl=en" target=_blank title="Instagram"><img src="pics/insta1.png" alt="instagram" style="width:38px;height:38px;"i class=" w3-hover-grey"></a>
-  </span>
-  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><img src="pics/bars.png" alt="pin" style="width:20px;height:20px;"i class=""</a></i></a>
-  <a href="index.html" class="w3-bar-item w3-button w3-black"><img src= "pics/logowhitesmall.png" style="width:52px;height:22px"i class=" w3-margin-right w3-hover-grey"></a>
-  <a href="Comps.html" class="w3-bar-item w3-button w3-hide-small w3-hover-grey">Competitions</a>
-  <a href="Leaderboard.html" class="w3-bar-item w3-button w3-hide-small w3-hover-grey">Leaderboard</a>
-  <a href="Videos.html" class="w3-bar-item w3-button w3-hide-small w3-hover-grey">Videos</a>
-  <a href="About.html" class="w3-bar-item w3-button w3-hide-small w3-hover-grey">About</a>
-  <a href="https://drive.google.com/file/d/0B9dMOxyiIy_VNVFhWUwxT0JMcjQ/view" target=_blank class="w3-bar-item w3-button w3-hide-small w3-hover-grey">Sign Up</a>
+	<div id="header">
+
+	<!-- Navbar -->
+	<div class="w3-top">
+		<div class="w3-bar w3-theme-d3 w3-left-align">
+			<span style="color:black;float:right;">
+				<a class= a href = "https://www.facebook.com/SydneyBodyboardClub/" target=_blank title="Facebook"><img src="pics/fb1.png" alt="facebook" style="width:38px;height:38px;"i class="w3-hover-grey"</a>
+				<a class= a href ="https://www.instagram.com/sydneybodyboardclub/?hl=en" target=_blank title="Instagram"><img src="pics/insta1.png" alt="instagram" style="width:38px;height:38px;"i class=" w3-hover-grey"></a>
+			</span>
+			<a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><img src="pics/bars.png" alt="pin" style="width:20px;height:20px;"i class=""</a></i></a>
+			<a href="index.html" class="w3-bar-item w3-button w3-black"><img src= "pics/logowhitesmall.png" style="width:52px;height:22px"i class=" w3-margin-right w3-hover-grey"></a>
+			<a href="Comps.html" class="w3-bar-item w3-button w3-hide-small w3-hover-grey">Competitions</a>
+			<a href="Leaderboard.html" class="w3-bar-item w3-button w3-hide-small w3-hover-grey">Leaderboard</a>
+			<a href="Videos.html" class="w3-bar-item w3-button w3-hide-small w3-hover-grey">Videos</a>
+			<a href="About.html" class="w3-bar-item w3-button w3-hide-small w3-hover-grey">About</a>
+			<a href="https://drive.google.com/file/d/0B9dMOxyiIy_VNVFhWUwxT0JMcjQ/view" target=_blank class="w3-bar-item w3-button w3-hide-small w3-hover-grey">Sign Up</a>
   
   
    
-    <div class="w3-dropdown-hover w3-hide-small">
-    <button class="w3-button" title="Notifications">Sponsors <img src="pics/down.png" alt="pin" style="width:18px;height:18px;"i class=""</a></button>     
-    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-      <a href="http://www.bodyboardking.com" target=_blank class="w3-bar-item w3-button">Bodyboard Kingdom</a>
-      <a href="http://nmdboardco.com" target=_blank class="w3-bar-item w3-button">NMD</a>
-      <a href="http://www.movementmag.com/" target=_blank class="w3-bar-item w3-button">Movement Magazine</a>
-      <a href="http://balibodyboarding.com/" target=_blank class="w3-bar-item w3-button">Bali Bodyboarding</a>
-      <a href="http://www.butchersdelight.com.au/" target=_blank class="w3-bar-item w3-button">Butchers Delight</a>
-      <a href="https://www.amazonpower.com.au/" target=_blank class="w3-bar-item w3-button">Amazon Power</a>
-      <a href="https://www.sunzapper.com.au/" target=_blank class="w3-bar-item w3-button">Sun Zapper</a>
-     
-      
+		<div class="w3-dropdown-hover w3-hide-small">
+			<button class="w3-button" title="Notifications">Sponsors <img src="pics/down.png" alt="pin" style="width:18px;height:18px;"i class=""</a></button>     
+				<div class="w3-dropdown-content w3-card-4 w3-bar-block">
+					<a href="http://www.bodyboardking.com" target=_blank class="w3-bar-item w3-button">Bodyboard Kingdom</a>
+					<a href="http://nmdboardco.com" target=_blank class="w3-bar-item w3-button">NMD</a>
+					<a href="http://www.movementmag.com/" target=_blank class="w3-bar-item w3-button">Movement Magazine</a>
+					<a href="http://balibodyboarding.com/" target=_blank class="w3-bar-item w3-button">Bali Bodyboarding</a>
+					<a href="http://www.butchersdelight.com.au/" target=_blank class="w3-bar-item w3-button">Butchers Delight</a>
+					<a href="https://www.amazonpower.com.au/" target=_blank class="w3-bar-item w3-button">Amazon Power</a>
+					<a href="https://www.sunzapper.com.au/" target=_blank class="w3-bar-item w3-button">Sun Zapper</a>
+				</div>
+		</div>
+	</div>
  
-    </div>
-  </div>
- </div>
- 
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-sidebar w3-bar-block w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-  	<a href="Index.html" class="w3-bar-item w3-button">Home</a>
-    <a href="Comps.html" class="w3-bar-item w3-button">Competitions</a>
-    <a href="Leaderboard.html" class="w3-bar-item w3-button">Leaderboard</a>
-    <a href="Videos.html" class="w3-bar-item w3-button">Videos</a>
-    <a href="About.html" class="w3-bar-item w3-button">About</a>
-    <a href="https://drive.google.com/file/d/0B9dMOxyiIy_VNVFhWUwxT0JMcjQ/view" target_blank class="w3-bar-item w3-button">Sign Up</a>
-    <a href="Contact.html" class="w3-bar-item w3-button">Contact</a>
-  </div>
-</div>
+	<!-- Navbar on small screens -->
+		<div id="navDemo" class="w3-sidebar w3-bar-block w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+			<a href="Index.html" class="w3-bar-item w3-button">Home</a>
+			<a href="Comps.html" class="w3-bar-item w3-button">Competitions</a>
+			<a href="Leaderboard.html" class="w3-bar-item w3-button">Leaderboard</a>
+			<a href="Videos.html" class="w3-bar-item w3-button">Videos</a>
+			<a href="About.html" class="w3-bar-item w3-button">About</a>
+			<a href="https://drive.google.com/file/d/0B9dMOxyiIy_VNVFhWUwxT0JMcjQ/view" target_blank class="w3-bar-item w3-button">Sign Up</a>
+			<a href="Contact.html" class="w3-bar-item w3-button">Contact</a>
+		</div>
+	
+	</div>
 
 
-<!-- Image Header -->
-<div class"container w3-animate-opacity">
-<br>
-  <img src="pics/Banner.jpg" alt="banner">
-</div>
+	<!-- Image Header -->
+		<div class"container w3-animate-opacity">
+			<br>
+			<img src="pics/Banner.jpg" alt="banner">
+		</div>
 
 
-<!-- Body -->
+	<!-- Body -->
 
-<!-- Comp #4 -->
-<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:90%" id="Body">
-    <h2 class="w3-wide">SBC Comp #4</h2>
-    <p class="w3-opacity"><i>23/07/2017</i></p>
-    <p class="w3-justify">A pale winters sun, crisp westerly winds, a groomed 3-5ft swell and a herd of frothing bodyboarders converged at Mona Vale beach for the fourth SBC competition of 2017. A location that offers a consistent and punchy rip bowl, a novelty suck rock and a notorious ‘womp’ing shore break has undoubtedly earned itself the recognition as the bodyboarding epicentre of the northern beaches. 
-All the club members were stoked to finally be competing at this iconic beach break once again. The morning was commenced with Ben Player imparting some of his wisdom about surfing well in bigger waves. These tips involved staying calm and not panicking by counting your breaths, and how longer, and more drawn out bottom turns are essential to surfing well in larger conditions.
-After the tide reached its peak for the morning, and begun to drain out at around 8:30 AM, the comp went underway with AAA’s first in the water. Tactical heats were surfed as the waits between waves were long. Some notable combos were thrown down by Moz and Ricky as they utilized the ripbowl to its full potential. But it was Miguel’s giant, rib shattering rolls that stole the attention of the crowd which had gathered to watch this bodyboarding spectacle. Moz ended up taking out AAA with some critical combos and some nice barrels. 
-AA’s were in the water next with a straight, six-man final. The swell had slowly been dropping throughout the day but there were still many more ramps and barrels erupting on the Mona Vale sandbanks. Trent and Angus were throwing down some clean moves on critical sections but it was  Will Morris that claimed first place, surfing a tactical heat and launching an arm- extended roll on a set wave.
- The Mens heat saw the same, slow yet clean conditions. A battle of the masters, as Nick C and Aaron M went wave for wave in a tight heat. Their experience became evident as competitors strung together some spin to roll combinations with clean lines and smooth flow. Tensions erupted in the water this heat with a hot-headed mona local blowing up, and swinging at competitors. Despite this, Aaron Mihelic managed to take out top spot with some clean and consistent riding, continuing this close rivalry with Nick Chandler.
-Drop Knee was up next. No surprises here as Antonio, in his element, began to use his wave limit in variety of ways. Spinners to slick exposed hack combos on the rights, or pulling into 5ft close out barrels on the lefts, throwing twice the number of buckets than any of the local standups. Will R, Jono M, and Joey all got several decent waves but could not keep up with this Portuguese shredder.
-As the day came to a close it is safe to say that all the boys got some some sick waves, and had a good time feasting on felicity’s wonderful cooking. With another Bunning’s BBQ on the horizon, and comp 5 in September things are looking good for SBC.</p>
+	<!-- Comp #4 -->
+	<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:90%" id="Body">
+		<h2 class="w3-wide">SBC Comp #4</h2>
+		<p class="w3-opacity"><i>23/07/2017</i></p>
+		<p class="w3-justify">A pale winters sun, crisp westerly winds, a groomed 3-5ft swell and a herd of frothing bodyboarders converged at Mona Vale beach for the fourth SBC competition of 2017. A location that offers a consistent and punchy rip bowl, a novelty suck rock and a notorious ‘womp’ing shore break has undoubtedly earned itself the recognition as the bodyboarding epicentre of the northern beaches. 
+		All the club members were stoked to finally be competing at this iconic beach break once again. The morning was commenced with Ben Player imparting some of his wisdom about surfing well in bigger waves. These tips involved staying calm and not panicking by counting your breaths, and how longer, and more drawn out bottom turns are essential to surfing well in larger conditions.
+		After the tide reached its peak for the morning, and begun to drain out at around 8:30 AM, the comp went underway with AAA’s first in the water. Tactical heats were surfed as the waits between waves were long. Some notable combos were thrown down by Moz and Ricky as they utilized the ripbowl to its full potential. But it was Miguel’s giant, rib shattering rolls that stole the attention of the crowd which had gathered to watch this bodyboarding spectacle. Moz ended up taking out AAA with some critical combos and some nice barrels. 
+		AA’s were in the water next with a straight, six-man final. The swell had slowly been dropping throughout the day but there were still many more ramps and barrels erupting on the Mona Vale sandbanks. Trent and Angus were throwing down some clean moves on critical sections but it was  Will Morris that claimed first place, surfing a tactical heat and launching an arm- extended roll on a set wave.
+		The Mens heat saw the same, slow yet clean conditions. A battle of the masters, as Nick C and Aaron M went wave for wave in a tight heat. Their experience became evident as competitors strung together some spin to roll combinations with clean lines and smooth flow. Tensions erupted in the water this heat with a hot-headed mona local blowing up, and swinging at competitors. Despite this, Aaron Mihelic managed to take out top spot with some clean and consistent riding, continuing this close rivalry with Nick Chandler.
+		Drop Knee was up next. No surprises here as Antonio, in his element, began to use his wave limit in variety of ways. Spinners to slick exposed hack combos on the rights, or pulling into 5ft close out barrels on the lefts, throwing twice the number of buckets than any of the local standups. Will R, Jono M, and Joey all got several decent waves but could not keep up with this Portuguese shredder.
+		As the day came to a close it is safe to say that all the boys got some some sick waves, and had a good time feasting on felicity’s wonderful cooking. With another Bunning’s BBQ on the horizon, and comp 5 in September things are looking good for SBC.</p>
 
-<br> 
-	<h3> Results </h3>
-    <div class="" style="width:100%">
+		<br> 
+		<h3> Results </h3>
+		<div class="" style="width:100%">
 
-  <div class="w3-container w3-third">
-     <h4> A's </h4>
-    	<p> 1st - Reuben Reigler </p>
-    <br>
-    <br>
-    <br>
-    <h4> AA's </h4>
-    	<p> 1st - Will Morris <br>	
-    		2nd - Angus <br>
-            3rd - Trent Alleyne<br>
-            4th - Marty Newman</p>
-  </div>
+			<div class="w3-container w3-third">
+				<h4> A's </h4>
+				<p> 1st - Reuben Reigler </p>
+				<br>
+				<br>
+				<br>
+				<h4> AA's </h4>
+				<p> 1st - Will Morris <br>	
+					2nd - Angus <br>
+					3rd - Trent Alleyne<br>
+					4th - Marty Newman</p>
+			</div>
   
-   <div class="w3-container w3-third">
-     <h4> AAA's </h4>
-    	<p> 1st - Mauricio Abrunhosa<br>	
-    		2nd - Miguel Serrao<br>
-            3rd - Will Rowe<br>
-            4th - Jono Moin</p>
+			<div class="w3-container w3-third">
+				<h4> AAA's </h4>
+				<p> 1st - Mauricio Abrunhosa<br>	
+					2nd - Miguel Serrao<br>
+					3rd - Will Rowe<br>
+					4th - Jono Moin</p>
             
-     <h4> Men's </h4>
-     	<p> 1st - Aaron Mihelic <br>	
-    		2nd - Nick Chandler <br>
-            3rd - Andy Miller<br>
-            4th - Ricardo Riskalla</p>
+				<h4> Men's </h4>
+				<p> 1st - Aaron Mihelic <br>	
+					2nd - Nick Chandler <br>
+					3rd - Andy Miller<br>
+					4th - Ricardo Riskalla</p>
      
-  </div>
+			</div>
 
-  <div class="w3-container w3-third">
-     <h4> Womens </h4>
-    	<p> 1st - Deborah Partos</p>
-        <br>
-        <br>
-        <br>
-     <h4> Drop Knee </h4>
-     	<p> 1st - Antonio <br>	
-    		2nd - Jono Moin <br>
-            3rd - Will Rowe<br>
-            4th - Joseph Morton</p>
-  </div>
-</div>
-</div>
+			<div class="w3-container w3-third">
+				<h4> Womens </h4>
+				<p> 1st - Deborah Partos</p>
+				<br>
+				<br>
+				<br>
+				<h4> Drop Knee </h4>
+				<p> 1st - Antonio <br>	
+					2nd - Jono Moin <br>
+					3rd - Will Rowe<br>
+					4th - Joseph Morton</p>
+			</div>
+		</div>
+		
+	</div>
     
     <center><H3> Video from Event below </H3></center>
     
-  	<div class="w3-container w3-content w3-center w3-padding-64" id="Body">
-        
-				<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://player.vimeo.com/video/228794618?byline=0&portrait=0" width="100%" height="100%" frameborder="0"           		webkitallowfullscreen mozallowfullscreen style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
-    </div>
+	<div class="w3-container w3-content w3-center w3-padding-64" id="Body">
+		<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://player.vimeo.com/video/228794618?byline=0&portrait=0" width="100%" height="100%" frameborder="0"           		webkitallowfullscreen mozallowfullscreen style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+			</div>
 
 </div>
     </div>
