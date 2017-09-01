@@ -9,7 +9,6 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
 	<!-- footer -->
 
@@ -67,8 +66,8 @@
  </div>
  
   <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-sidebar w3-bar-block w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-  	<a href="Index.html" class="w3-bar-item w3-button">Home</a>
+  <div id="navDemo" class="w3-sidebar opac3 w3-bar-block w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  	<a href="index.html" class="w3-bar-item w3-button">Home</a>
     <a href="Comps.html" class="w3-bar-item w3-button">Competitions</a>
     <a href="Leaderboard.html" class="w3-bar-item w3-button">Leaderboard</a>
     <a href="Videos.html" class="w3-bar-item w3-button">Videos</a>
@@ -209,37 +208,7 @@
                     return false;
                 });
     });
-</script>
-
-<script>
-//slideshow
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-white";
-}
-
+    
 // Script for side navigation
 function w3_open() {
     var x = document.getElementById("mySidebar");

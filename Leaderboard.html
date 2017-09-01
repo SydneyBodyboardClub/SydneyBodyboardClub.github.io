@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>SBC</title>
 	<link rel="icon" href="pics/icon2.png"
@@ -8,7 +9,6 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
 	<!-- footer -->
 
@@ -49,7 +49,7 @@
   
    
     <div class="w3-dropdown-hover w3-hide-small">
-    <button class="w3-button" title="Notifications">Sponsors <img src="pics/down.png" alt="pin" style="width:18px;height:18px;"i class=""</a></button>     
+    <button class="w3-button" title="Notifications">Sponsors <img src="pics/down.png" alt="pin" style="width:18px;height:18px;"i class=""</a></i></button>     
     <div class="w3-dropdown-content w3-card-4 w3-bar-block">
       <a href="http://www.bodyboardking.com" target=_blank class="w3-bar-item w3-button">Bodyboard Kingdom</a>
       <a href="http://nmdboardco.com" target=_blank class="w3-bar-item w3-button">NMD</a>
@@ -66,26 +66,25 @@
  </div>
  
   <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-sidebar w3-bar-block w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-  	<a href="Index.html" class="w3-bar-item w3-button">Home</a>
+  <div id="navDemo" class="opac3 w3-sidebar w3-bar-block w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  	<a href="index.html" class="w3-bar-item w3-button">Home</a>
     <a href="Comps.html" class="w3-bar-item w3-button">Competitions</a>
     <a href="Leaderboard.html" class="w3-bar-item w3-button">Leaderboard</a>
     <a href="Videos.html" class="w3-bar-item w3-button">Videos</a>
     <a href="About.html" class="w3-bar-item w3-button">About</a>
     <a href="https://drive.google.com/file/d/0B9dMOxyiIy_VNVFhWUwxT0JMcjQ/view" target_blank class="w3-bar-item w3-button">Sign Up</a>
-    <a href="Contact.html" class="w3-bar-item w3-button">Contact</a>
   </div>
 </div>
 
 
 <!-- Image Header -->
 <div class="container w3-animate-opacity">
+
   <img src="pics/Banner.jpg" alt="banner">
 </div>
 
 
 <!-- Body -->
-
 <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:100%" id="Body">
 
 	<h1>Leaderboard</h1>
@@ -96,7 +95,7 @@
     <br>
     <br>
     
-<div class="w3-half w3-container">
+<div class="w3-half">
     
     
     <table align="center">
@@ -119,13 +118,6 @@
             <td>2900</td>
         </tr>
 	</table>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <br>
     
 	<table align="center">
@@ -166,8 +158,6 @@
         </tr>
 	</table>
     <br>
-    <br>
-    <br>
     
     <table align="center">
     	<tr>
@@ -207,7 +197,7 @@
 
 </div>
 
-<div class="w3-half w3-container">
+<div class="w3-half">
 
 
     	<table align="center">
@@ -246,9 +236,6 @@
         </tr>
 	</table>
     <br>
-    <br>
-	<br>
-    
     <table align="center">
     	<tr>
         	<td id="header" colspan= "7"><h3> Womens Top 4 </h3></td>
@@ -280,11 +267,6 @@
         </tr>
 	</table>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    
     <table align="center">
     	<tr>
         	<td id="header" colspan= "7"><h3> Drop Knee Top 5 </h3></td>
@@ -324,11 +306,10 @@
 </div>
 
 
-    <br>
-    <br>
-    <br>
+<br>
 
 </div>
+
 <!-- Footer -->
 
 		<footer class="footer-distributed">
@@ -348,7 +329,7 @@
 					·
 					<a href="About.html">About</a>
                     ·
-                  	<a href="https://drive.google.com/file/d/0B9dMOxyiIy_VNVFhWUwxT0JMcjQ/view" target=_blank">Sign Up</a>
+                    <a href="https://drive.google.com/file/d/0B9dMOxyiIy_VNVFhWUwxT0JMcjQ/view" target=_blank">Sign Up</a> 
 				</p>
 
 				<p class="footer-company-name">Sydney Bodyboard Club &copy; 2017 / Website by Trent Alleyne</p>
@@ -403,37 +384,7 @@
                     return false;
                 });
     });
-</script>
-
-<script>
-//slideshow
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-white";
-}
-
+ 
 // Script for side navigation
 function w3_open() {
     var x = document.getElementById("mySidebar");
@@ -456,4 +407,6 @@ function openNav() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+</script>
+</body>
 </html>

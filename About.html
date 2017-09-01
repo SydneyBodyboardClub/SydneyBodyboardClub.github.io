@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>SBC</title>
 	<link rel="icon" href="pics/icon2.png"
@@ -8,7 +9,6 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
 	<!-- footer -->
 
@@ -29,6 +29,7 @@
 
 <div id="top">
     <div id="header">
+
 
 <!-- Navbar -->
 <div class="w3-top">
@@ -65,20 +66,20 @@
  </div>
  
   <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-sidebar w3-bar-block w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-  	<a href="Index.html" class="w3-bar-item w3-button">Home</a>
+  <div id="navDemo" class="opac3 w3-sidebar w3-bar-block w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  	<a href="index.html" class="w3-bar-item w3-button">Home</a>
     <a href="Comps.html" class="w3-bar-item w3-button">Competitions</a>
     <a href="Leaderboard.html" class="w3-bar-item w3-button">Leaderboard</a>
     <a href="Videos.html" class="w3-bar-item w3-button">Videos</a>
     <a href="About.html" class="w3-bar-item w3-button">About</a>
     <a href="https://drive.google.com/file/d/0B9dMOxyiIy_VNVFhWUwxT0JMcjQ/view" target_blank class="w3-bar-item w3-button">Sign Up</a>
-    <a href="Contact.html" class="w3-bar-item w3-button">Contact</a>
   </div>
 </div>
 
 
 <!-- Image Header -->
 <div class="container w3-animate-opacity">
+
   <img src="pics/Banner.jpg" alt="banner">
 </div>
 
@@ -111,8 +112,6 @@
 </div>
 
 </div>
-
-
 <!-- Footer -->
 
 		<footer class="footer-distributed">
@@ -132,7 +131,7 @@
 					·
 					<a href="About.html">About</a>
                     ·
-                    <a href="https://drive.google.com/file/d/0B9dMOxyiIy_VNVFhWUwxT0JMcjQ/view" target=_blank">Sign Up</a>
+                    <a href="https://drive.google.com/file/d/0B9dMOxyiIy_VNVFhWUwxT0JMcjQ/view" target=_blank">Sign Up</a> 
 				</p>
 
 				<p class="footer-company-name">Sydney Bodyboard Club &copy; 2017 / Website by Trent Alleyne</p>
@@ -187,37 +186,7 @@
                     return false;
                 });
     });
-</script>
-
-<script>
-//slideshow
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-white";
-}
-
+ 
 // Script for side navigation
 function w3_open() {
     var x = document.getElementById("mySidebar");
@@ -240,6 +209,7 @@ function openNav() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+</script>
 </body>
 </html>
 
