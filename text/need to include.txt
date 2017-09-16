@@ -1,15 +1,6 @@
 ric:
 
-1) Remove my phone number
-
-2) In competition we need to add the other 2 comps also.
-
 3) In leaderboard we need to add SPONSOR beside the name of the athlete. Like you are NMD and BBKing …
-
-
-5) Create a tag just for Comp dates. 
-
-
 
 leaderboard
 

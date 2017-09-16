@@ -450,3 +450,9 @@ td[colspan]{
 	  max-height:360;
 	  }
 	  
+	img.hover:hover, a.hover:active{
+     color:black;
+	 }
+    
+
+	  
