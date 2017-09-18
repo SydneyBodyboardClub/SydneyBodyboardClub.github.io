@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<title>SBC</title>
+<link rel="icon" href="pics/icon2.png"
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<body id="Contact">
+
+<div id="top">
+    <div id="header">
+        blah
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+ <span style="float:right;">
+  <a class= a href = "https://www.facebook.com/SydneyBodyboardClub/" target=_blank title="Facebook"><img src="pics/fb1.png" alt="facebook" style="width:38px;height:38px;"i class="w3-hover-grey"</a>
+  <a class= a href ="https://www.instagram.com/sydneybodyboardclub/?hl=en" target=_blank title="Instagram"><img src="pics/insta1.png" alt="instagram" style="width:38px;height:38px;"i class=" w3-hover-grey"></a>
+  </span>
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="index.html" class="w3-bar-item w3-button w3-black"><img src= "pics/icon3.png" style="width:23px;height:22px"i class=" w3-margin-right w3-hover-grey">Sydney Bodyboard Club</i></a>
+  <a href="Leaderboard.html" class="w3-bar-item w3-button w3-hide-small w3-hover-grey">Leaderboard</a>
+  <a href="About.html" class="w3-bar-item w3-button w3-hide-small w3-hover-grey">About</a>
+  <a href="Contact.html" class="w3-bar-item w3-button w3-hide-small w3-hover-grey">Contact</a>
+   
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Sponsors <i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="http://www.bodyboardking.com" target=_blank class="w3-bar-item w3-button">Bodyboard Kingdom</a>
+      <a href="http://balibodyboarding.com/" target=_blank class="w3-bar-item w3-button">Bali Bodyboarding</a>
+      <a href="http://nmdboardco.com" target=_blank class="w3-bar-item w3-button">NMD</a>
+      <a href="https://www.sunzapper.com.au/" target=_blank class="w3-bar-item w3-button">Sun Zapper</a>
+      <a href="http://www.amazonia.com.au/" target=_blank class="w3-bar-item w3-button">Acai</a>
+      <a href="http://www.movementmag.com/" target=_blank class="w3-bar-item w3-button">Movement Magazine</a>
+      <a href="www.bunnings.com.au" target=_blank class="w3-bar-item w3-button">Bunnings Warehouse</a>
+    </div>
+  </div>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="pics/Banner.jpg" alt="banner" style="width:100%;min-height:350px;max-height:600px;">
+</div>
+
+
+<!-- Body -->
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:70%" id="band">
+	<h1>Sydney Bodyboard Club Leaderboard</h1>
+	<br> 
+
+	<table>
+   	<tr>
+    <td><h1> AA </h1></td>
+    </tr>
+	</table>
+
+
+
+
+</div>
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+
+<div class="opac"> Copyright © Sydney Bodyboard Club 2017 </div>
+
+
+
+<span style="float:center;">
+  <a class= a href = "https://www.facebook.com/SydneyBodyboardClub/" target=_blank title="Facebook"><img src="pics/fb1.png" alt="facebook" style="width:38px;height:38px;"i class="w3-hover-grey"</a>
+  <a class= a href ="https://www.instagram.com/sydneybodyboardclub/?hl=en" target=_blank title="Instagram"><img src="pics/insta1.png" alt="instagram" style="width:38px;height:38px;"i class=" w3-hover-grey"></a>
+  </span>
+  
+  <p id="back-top"><a href="#top"><img src="pics/up1.png"alt="facebook" style="width:38px;height:38px;"i</a></p>
+</footer>
+
+<script type="text/javascript">
+    // Assuming jQuery.noConflict(); has been called
+    jQuery(function () {
+                jQuery('#back-top a').click(function () {
+                    jQuery('body,html').animate({
+                        scrollTop : 0
+                    }, 900);
+                    return false;
+                });
+    });
+</script>
+
+<script>
+//slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</html>
