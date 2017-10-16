@@ -1,0 +1,3 @@
+# SydneyBodyboardClub.github.io
+Website for the club
+please dont be a dickhead and delete or chnage it... if u do i will simply ban u and overide it...
